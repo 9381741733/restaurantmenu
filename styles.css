@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #1e1e1e;
+    padding: 20px;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  .logo h2 {
+    margin: 10px 0 5px 0;
+  }
+  .logo p {
+    color: #e53935;
+  }
+  
+  .links h3 {
+    margin-top: 20px;
+  }
+  .links ul {
+    list-style: none;
+    padding: 0;
+  }
+  .links li {
+    margin: 8px 0;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header input {
+    width: 60%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .signup-btn, .login-btn {
+    background-color: #ff3d00;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .mini-logo {
+    width: 40px;
+    margin-left: 10px;
+  }
+  
+  #landing-banner {
+    margin: 20px 0;
+  }
+  
+  .banner-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .menu-item {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .menu-item h3 {
+    margin: 10px 0 5px 0;
+  }
+  
+  .menu-item p {
+    margin: 0;
+    color: #ccc;
+  }
+  
+  .add-btn {
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

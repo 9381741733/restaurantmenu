@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Food Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="getMenu()">
+
+  <div class="container">
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="logo.png" alt="Restaurant Logo">
+        <h2>Your Restaurant Menu</h2>
+        <p>Your Slogan</p>
+      </div>
+      <nav class="links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li>Home</li>
+          <li>Your Orders</li>
+          <li>Wallet</li>
+          <li>Profile</li>
+          <li>Logout</li>
+        </ul>
+        <h3>More About Us</h3>
+        <ul>
+          <li>Our Blog</li>
+          <li>Upcoming Dishes</li>
+          <li>Our Story</li>
+          <li>Social Media Links</li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <div class="header">
+        <input type="text" placeholder="Search Food Item">
+        <div class="buttons">
+          <button class="signup-btn">Signup</button>
+          <button class="login-btn">Login</button>
+          <img src="logo.png" alt="Logo" class="mini-logo">
+        </div>
+      </div>
+
+      <div id="landing-banner">
+        <img src="banner.png" alt="Banner" class="banner-img">
+      </div>
+
+      <h2>Menu</h2>
+      <div id="menu" class="menu-grid">
+        <!-- Menu items will be populated here -->
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
