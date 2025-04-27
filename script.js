@@ -83,7 +83,7 @@ async function processOrder() {
   }
 }
 
-// Trigger order process manually or automatically after load (optional)
+
 setTimeout(() => {
   processOrder();
-}, 3000); // after 3 seconds
+}, 3000); 
